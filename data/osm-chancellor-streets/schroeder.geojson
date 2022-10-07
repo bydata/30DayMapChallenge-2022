@@ -1,0 +1,41 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-10-02T22:06:53Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/25141529",
+        "highway": "living_street",
+        "name": "Gerhard-Schröder-Straße",
+        "noexit": "yes",
+        "source": "GPS",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.6767652,
+            53.73839
+          ],
+          [
+            9.676978,
+            53.7388184
+          ],
+          [
+            9.6773229,
+            53.7387628
+          ],
+          [
+            9.6774041,
+            53.7387009
+          ]
+        ]
+      },
+      "id": "way/25141529"
+    }
+  ]
+}

@@ -1,0 +1,1266 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-10-07T19:38:09Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4287341",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "source": "yahoo images",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8366983,
+            53.0291255
+          ],
+          [
+            8.8367983,
+            53.0293455
+          ],
+          [
+            8.8369965,
+            53.0297118
+          ],
+          [
+            8.8370755,
+            53.0298224
+          ],
+          [
+            8.8372444,
+            53.0300586
+          ],
+          [
+            8.8375061,
+            53.0304177
+          ],
+          [
+            8.8377356,
+            53.0307216
+          ],
+          [
+            8.8377994,
+            53.0308057
+          ],
+          [
+            8.8383863,
+            53.0315871
+          ]
+        ]
+      },
+      "id": "way/4287341"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4381249",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8344417,
+            53.0329532
+          ],
+          [
+            8.8341974,
+            53.0330781
+          ],
+          [
+            8.8340177,
+            53.033139
+          ],
+          [
+            8.8339408,
+            53.0331588
+          ],
+          [
+            8.8338594,
+            53.0331869
+          ]
+        ]
+      },
+      "id": "way/4381249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4381250",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8338021,
+            53.0331297
+          ],
+          [
+            8.8338957,
+            53.0331063
+          ],
+          [
+            8.8344417,
+            53.0329532
+          ]
+        ]
+      },
+      "id": "way/4381250"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4876949",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "sidewalk": "both",
+        "sidewalk:both:surface": "asphalt",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.9286492,
+            48.4640841
+          ],
+          [
+            8.9287083,
+            48.4641494
+          ],
+          [
+            8.9288183,
+            48.4645716
+          ],
+          [
+            8.9289072,
+            48.464749
+          ]
+        ]
+      },
+      "id": "way/4876949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22912426",
+        "highway": "living_street",
+        "maxspeed": "20",
+        "name": "Kurt-Georg-Kiesinger-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.5584075,
+            49.2366078
+          ],
+          [
+            8.5580015,
+            49.2366119
+          ],
+          [
+            8.5578715,
+            49.2365956
+          ],
+          [
+            8.5577437,
+            49.2365795
+          ],
+          [
+            8.5562782,
+            49.2365874
+          ]
+        ]
+      },
+      "id": "way/22912426"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/25284315",
+        "highway": "living_street",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "postal_code": "97422",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.2496008,
+            50.0599761
+          ],
+          [
+            10.2500491,
+            50.0595996
+          ],
+          [
+            10.25061,
+            50.0591226
+          ],
+          [
+            10.2512497,
+            50.0594384
+          ],
+          [
+            10.2518898,
+            50.0597557
+          ],
+          [
+            10.2525148,
+            50.0600616
+          ],
+          [
+            10.2528559,
+            50.0602284
+          ],
+          [
+            10.2528921,
+            50.0610626
+          ],
+          [
+            10.2529096,
+            50.0614218
+          ]
+        ]
+      },
+      "id": "way/25284315"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26673519",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.9268964,
+            48.4651798
+          ],
+          [
+            8.927537,
+            48.4650303
+          ],
+          [
+            8.9289072,
+            48.464749
+          ],
+          [
+            8.9299809,
+            48.4645429
+          ],
+          [
+            8.9298999,
+            48.464108
+          ],
+          [
+            8.9298818,
+            48.463983
+          ]
+        ]
+      },
+      "id": "way/26673519"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/26673520",
+        "highway": "residential",
+        "lane_markings": "no",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "asphalt",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.927537,
+            48.4650303
+          ],
+          [
+            8.9273035,
+            48.4645246
+          ],
+          [
+            8.9272357,
+            48.4642424
+          ]
+        ]
+      },
+      "id": "way/26673520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29380900",
+        "highway": "living_street",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.0286311,
+            47.8183005
+          ],
+          [
+            10.0288559,
+            47.817825
+          ],
+          [
+            10.0290053,
+            47.8175238
+          ],
+          [
+            10.0289262,
+            47.8174981
+          ],
+          [
+            10.0288846,
+            47.8174624
+          ],
+          [
+            10.0288752,
+            47.8174184
+          ],
+          [
+            10.0288961,
+            47.8173317
+          ],
+          [
+            10.0289526,
+            47.8172147
+          ],
+          [
+            10.0290069,
+            47.817098
+          ],
+          [
+            10.0290327,
+            47.8170762
+          ],
+          [
+            10.0290772,
+            47.8170557
+          ],
+          [
+            10.0291401,
+            47.8170559
+          ],
+          [
+            10.0299763,
+            47.817219
+          ],
+          [
+            10.0304047,
+            47.8173049
+          ],
+          [
+            10.0306003,
+            47.8173669
+          ],
+          [
+            10.030616,
+            47.8174039
+          ],
+          [
+            10.0306144,
+            47.8174409
+          ],
+          [
+            10.0305411,
+            47.8175417
+          ],
+          [
+            10.0303666,
+            47.817754
+          ],
+          [
+            10.0303259,
+            47.8177768
+          ],
+          [
+            10.0302714,
+            47.8177858
+          ],
+          [
+            10.0301507,
+            47.8177533
+          ],
+          [
+            10.0299684,
+            47.8177125
+          ],
+          [
+            10.0295259,
+            47.8176213
+          ],
+          [
+            10.0290053,
+            47.8175238
+          ]
+        ]
+      },
+      "id": "way/29380900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34242187",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "DE:urban",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1361882,
+            50.7052689
+          ],
+          [
+            7.135976,
+            50.7051775
+          ],
+          [
+            7.1358489,
+            50.7051164
+          ],
+          [
+            7.1358387,
+            50.7050668
+          ],
+          [
+            7.1358659,
+            50.7050304
+          ]
+        ]
+      },
+      "id": "way/34242187"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34242194",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1363932,
+            50.7053671
+          ],
+          [
+            7.1361882,
+            50.7052689
+          ]
+        ]
+      },
+      "id": "way/34242194"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/35434080",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1363323,
+            50.7051484
+          ],
+          [
+            7.1365336,
+            50.7052402
+          ]
+        ]
+      },
+      "id": "way/35434080"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/35434081",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "DE:urban",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1365336,
+            50.7052402
+          ],
+          [
+            7.1367042,
+            50.7053218
+          ],
+          [
+            7.137489,
+            50.705698
+          ],
+          [
+            7.1375327,
+            50.7057409
+          ]
+        ]
+      },
+      "id": "way/35434081"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/64122433",
+        "highway": "residential",
+        "lit": "yes",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8744249,
+            48.2448194
+          ],
+          [
+            8.8754936,
+            48.2447768
+          ],
+          [
+            8.8757207,
+            48.2448511
+          ],
+          [
+            8.8760186,
+            48.2451625
+          ],
+          [
+            8.8760621,
+            48.2452133
+          ],
+          [
+            8.8761256,
+            48.2453117
+          ],
+          [
+            8.8761989,
+            48.2453501
+          ],
+          [
+            8.8762102,
+            48.2453692
+          ],
+          [
+            8.8759996,
+            48.2454637
+          ],
+          [
+            8.8759104,
+            48.2454669
+          ],
+          [
+            8.8758387,
+            48.2454405
+          ],
+          [
+            8.8757917,
+            48.2453762
+          ],
+          [
+            8.8758296,
+            48.2453258
+          ],
+          [
+            8.8760621,
+            48.2452133
+          ]
+        ]
+      },
+      "id": "way/64122433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/67600345",
+        "highway": "residential",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "surface": "asphalt",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.6342179,
+            51.6699962
+          ],
+          [
+            9.6341534,
+            51.669961
+          ],
+          [
+            9.6341284,
+            51.6699311
+          ],
+          [
+            9.634109,
+            51.6698952
+          ],
+          [
+            9.634106,
+            51.6698313
+          ],
+          [
+            9.6341612,
+            51.669523
+          ],
+          [
+            9.6341856,
+            51.6693698
+          ]
+        ]
+      },
+      "id": "way/67600345"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/111627587",
+        "highway": "living_street",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.4035523,
+            51.4962642
+          ],
+          [
+            9.4041171,
+            51.4959274
+          ],
+          [
+            9.4042264,
+            51.4958765
+          ],
+          [
+            9.404329,
+            51.495869
+          ],
+          [
+            9.4045865,
+            51.4959053
+          ],
+          [
+            9.4051524,
+            51.4959916
+          ]
+        ]
+      },
+      "id": "way/111627587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/139830814",
+        "bridge": "yes",
+        "highway": "residential",
+        "layer": "1",
+        "maxspeed": "30",
+        "maxweight:signed": "no",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8352389,
+            53.0327394
+          ],
+          [
+            8.8350356,
+            53.0327959
+          ]
+        ]
+      },
+      "id": "way/139830814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/139830815",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8350356,
+            53.0327959
+          ],
+          [
+            8.8348091,
+            53.0328589
+          ],
+          [
+            8.8344417,
+            53.0329532
+          ]
+        ]
+      },
+      "id": "way/139830815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/146726806",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "DE:urban",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1358659,
+            50.7050304
+          ],
+          [
+            7.1359202,
+            50.7049984
+          ],
+          [
+            7.136003,
+            50.7049996
+          ],
+          [
+            7.1363323,
+            50.7051484
+          ]
+        ]
+      },
+      "id": "way/146726806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/146726808",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "DE:urban",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1373908,
+            50.7058238
+          ],
+          [
+            7.1373405,
+            50.7058102
+          ],
+          [
+            7.1365676,
+            50.7054487
+          ],
+          [
+            7.1363932,
+            50.7053671
+          ]
+        ]
+      },
+      "id": "way/146726808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/197718131",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "source:maxspeed": "DE:zone:30",
+        "surface": "asphalt",
+        "zone:maxspeed": "DE:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.4682895,
+            49.6166371
+          ],
+          [
+            9.4685921,
+            49.616715
+          ],
+          [
+            9.4689214,
+            49.6168063
+          ]
+        ]
+      },
+      "id": "way/197718131"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/198019632",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "source:maxspeed": "DE:zone:30",
+        "surface": "asphalt",
+        "zone:maxspeed": "DE:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.4685921,
+            49.616715
+          ],
+          [
+            9.4684189,
+            49.6170043
+          ]
+        ]
+      },
+      "id": "way/198019632"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/202203140",
+        "highway": "living_street",
+        "lit": "yes",
+        "name": "Kurt-Georg-Kiesinger-Platz",
+        "start_date": "1997",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.0282691,
+            48.2128392
+          ],
+          [
+            9.0282425,
+            48.2128591
+          ],
+          [
+            9.0282118,
+            48.2128697
+          ],
+          [
+            9.0281732,
+            48.2128728
+          ],
+          [
+            9.0281414,
+            48.2128679
+          ],
+          [
+            9.02811,
+            48.2128545
+          ],
+          [
+            9.0280878,
+            48.2128344
+          ],
+          [
+            9.0280775,
+            48.2128021
+          ],
+          [
+            9.0280848,
+            48.2127789
+          ]
+        ]
+      },
+      "id": "way/202203140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/309134989",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "sidewalk": "both",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8380115,
+            53.0319829
+          ],
+          [
+            8.8377638,
+            53.0320506
+          ],
+          [
+            8.8374453,
+            53.0321377
+          ],
+          [
+            8.8364775,
+            53.0323989
+          ],
+          [
+            8.8355267,
+            53.0326599
+          ],
+          [
+            8.8353481,
+            53.0327091
+          ],
+          [
+            8.8352389,
+            53.0327394
+          ]
+        ]
+      },
+      "id": "way/309134989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/309134990",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "sidewalk": "both",
+        "surface": "paving_stones",
+        "traffic_calming": "table"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.8383863,
+            53.0315871
+          ],
+          [
+            8.8384203,
+            53.0316337
+          ],
+          [
+            8.8383912,
+            53.0316853
+          ],
+          [
+            8.8381924,
+            53.0318922
+          ],
+          [
+            8.8380867,
+            53.0319608
+          ],
+          [
+            8.8380308,
+            53.0319772
+          ],
+          [
+            8.8380115,
+            53.0319829
+          ]
+        ]
+      },
+      "id": "way/309134990"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/566232332",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed:type": "DE:urban",
+        "name": "Kurt-Georg-Kiesinger-Allee",
+        "oneway": "yes",
+        "sidewalk": "none",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1375327,
+            50.7057409
+          ],
+          [
+            7.1375335,
+            50.7057784
+          ],
+          [
+            7.1375008,
+            50.7058067
+          ],
+          [
+            7.1374451,
+            50.7058262
+          ],
+          [
+            7.1373908,
+            50.7058238
+          ]
+        ]
+      },
+      "id": "way/566232332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/591061813",
+        "highway": "living_street",
+        "lit": "yes",
+        "name": "Kurt-Georg-Kiesinger-Platz",
+        "start_date": "1997",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.0280848,
+            48.2127789
+          ],
+          [
+            9.0281078,
+            48.2127558
+          ],
+          [
+            9.0281522,
+            48.2127385
+          ],
+          [
+            9.0281938,
+            48.2127364
+          ],
+          [
+            9.0282353,
+            48.2127464
+          ]
+        ]
+      },
+      "id": "way/591061813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/591061814",
+        "highway": "living_street",
+        "lit": "yes",
+        "name": "Kurt-Georg-Kiesinger-Platz",
+        "start_date": "1997",
+        "surface": "paving_stones"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.0282353,
+            48.2127464
+          ],
+          [
+            9.0282618,
+            48.2127625
+          ],
+          [
+            9.0282794,
+            48.2127857
+          ],
+          [
+            9.0282829,
+            48.2128105
+          ],
+          [
+            9.0282691,
+            48.2128392
+          ]
+        ]
+      },
+      "id": "way/591061814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/754338129",
+        "highway": "residential",
+        "lit": "yes",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger-Straße",
+        "source:maxspeed": "DE:zone:30",
+        "surface": "asphalt",
+        "zone:maxspeed": "DE:30"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.4689214,
+            49.6168063
+          ],
+          [
+            9.4694585,
+            49.6169716
+          ],
+          [
+            9.4702738,
+            49.6172149
+          ],
+          [
+            9.4703229,
+            49.6172268
+          ],
+          [
+            9.4706172,
+            49.6172983
+          ],
+          [
+            9.470931,
+            49.6173574
+          ],
+          [
+            9.471226,
+            49.6174026
+          ],
+          [
+            9.4716901,
+            49.6174634
+          ],
+          [
+            9.4718268,
+            49.6174964
+          ],
+          [
+            9.4721889,
+            49.6176475
+          ]
+        ]
+      },
+      "id": "way/754338129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/888903750",
+        "highway": "residential",
+        "is_in:city": "Neutraubling",
+        "is_in:country_code": "DE",
+        "maxspeed": "30",
+        "name": "Kurt-Georg-Kiesinger Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2126848,
+            48.9912886
+          ],
+          [
+            12.212694,
+            48.9912705
+          ],
+          [
+            12.2129161,
+            48.9908299
+          ],
+          [
+            12.2130267,
+            48.9906164
+          ],
+          [
+            12.2130241,
+            48.9905263
+          ]
+        ]
+      },
+      "id": "way/888903750"
+    }
+  ]
+}

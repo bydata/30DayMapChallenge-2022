@@ -1,0 +1,1024 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-10-07T20:12:53Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4684096",
+        "cycleway:both": "no",
+        "description": "2016 Name gändert von Pappelalle in Helmut-Schmidt-Allee",
+        "highway": "tertiary",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Helmut-Schmidt-Allee",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5558597,
+            52.6931444
+          ],
+          [
+            13.5557473,
+            52.6931104
+          ],
+          [
+            13.5556834,
+            52.693091
+          ],
+          [
+            13.5552694,
+            52.6929873
+          ],
+          [
+            13.5551183,
+            52.6929196
+          ],
+          [
+            13.5550561,
+            52.692875
+          ],
+          [
+            13.5549928,
+            52.6928067
+          ],
+          [
+            13.5549361,
+            52.6926554
+          ],
+          [
+            13.5549013,
+            52.6923945
+          ],
+          [
+            13.5547914,
+            52.6917881
+          ],
+          [
+            13.5547665,
+            52.6917457
+          ],
+          [
+            13.5546553,
+            52.6916074
+          ],
+          [
+            13.5544361,
+            52.6914855
+          ],
+          [
+            13.5541444,
+            52.6914342
+          ],
+          [
+            13.5518335,
+            52.6915642
+          ],
+          [
+            13.5509139,
+            52.6916152
+          ]
+        ]
+      },
+      "id": "way/4684096"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22912417",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Helmut-Schmidt-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.5562498,
+            49.2360021
+          ],
+          [
+            8.557867,
+            49.2359957
+          ],
+          [
+            8.5584133,
+            49.2359935
+          ],
+          [
+            8.5585585,
+            49.2359821
+          ],
+          [
+            8.5587288,
+            49.2359611
+          ],
+          [
+            8.5589283,
+            49.2359437
+          ],
+          [
+            8.5592659,
+            49.2358751
+          ]
+        ]
+      },
+      "id": "way/22912417"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29410271",
+        "description": "2016 Name gändert von Pappelalle in Helmut-Schmidt-Allee",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "30",
+        "name": "Helmut-Schmidt-Allee",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5509139,
+            52.6916152
+          ],
+          [
+            13.5508103,
+            52.6916188
+          ],
+          [
+            13.5501155,
+            52.6916205
+          ],
+          [
+            13.549524,
+            52.6916144
+          ],
+          [
+            13.5493231,
+            52.691537
+          ],
+          [
+            13.5492857,
+            52.6915033
+          ],
+          [
+            13.549269,
+            52.6914239
+          ],
+          [
+            13.5492608,
+            52.6913848
+          ],
+          [
+            13.5492736,
+            52.6913496
+          ],
+          [
+            13.5493626,
+            52.6911042
+          ],
+          [
+            13.5494356,
+            52.6909031
+          ],
+          [
+            13.5495211,
+            52.6907472
+          ],
+          [
+            13.5495476,
+            52.6907052
+          ],
+          [
+            13.549711,
+            52.6904061
+          ]
+        ]
+      },
+      "id": "way/29410271"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/50302274",
+        "description": "2016 Name gändert von Pappelalle in Helmut-Schmidt-Allee",
+        "highway": "residential",
+        "lanes": "2",
+        "maxspeed": "60",
+        "name": "Helmut-Schmidt-Allee",
+        "oneway": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.549711,
+            52.6904061
+          ],
+          [
+            13.5504058,
+            52.6890802
+          ],
+          [
+            13.5514676,
+            52.6871053
+          ],
+          [
+            13.551788,
+            52.6865093
+          ],
+          [
+            13.5525581,
+            52.6850769
+          ],
+          [
+            13.5534031,
+            52.6834697
+          ],
+          [
+            13.5542512,
+            52.6818742
+          ],
+          [
+            13.5546978,
+            52.6810255
+          ],
+          [
+            13.5553654,
+            52.6797567
+          ],
+          [
+            13.5553981,
+            52.6796924
+          ]
+        ]
+      },
+      "id": "way/50302274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/67601541",
+        "highway": "residential",
+        "name": "Helmut-Schmidt-Straße",
+        "surface": "asphalt",
+        "width": "4"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            9.6331766,
+            51.6697289
+          ],
+          [
+            9.6330553,
+            51.6697279
+          ],
+          [
+            9.6329862,
+            51.6697237
+          ],
+          [
+            9.6329244,
+            51.6697143
+          ],
+          [
+            9.63285,
+            51.6696909
+          ],
+          [
+            9.6328032,
+            51.6696668
+          ],
+          [
+            9.632763,
+            51.6696292
+          ],
+          [
+            9.6326622,
+            51.6694466
+          ],
+          [
+            9.6325492,
+            51.6692306
+          ],
+          [
+            9.6324983,
+            51.6691522
+          ],
+          [
+            9.6322954,
+            51.6690103
+          ],
+          [
+            9.6319682,
+            51.6687144
+          ],
+          [
+            9.6317565,
+            51.6684665
+          ],
+          [
+            9.6317284,
+            51.6684111
+          ],
+          [
+            9.6317237,
+            51.6683786
+          ],
+          [
+            9.6317308,
+            51.6683594
+          ],
+          [
+            9.6317463,
+            51.6683462
+          ],
+          [
+            9.6317773,
+            51.6683358
+          ]
+        ]
+      },
+      "id": "way/67601541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/198758487",
+        "bicycle": "use_sidepath",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "loc_name": "Trajektknoten",
+        "maxspeed": "50",
+        "name": "Helmut-Schmidt-Platz",
+        "note": "Das ist kein Kreisverkehr, sondern eine ampelgesicherte Kreuzung in Kreisform.",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source": "estimation;NRW-Atlas DGK5",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|through|through",
+        "width": "12"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1239842,
+            50.7135982
+          ],
+          [
+            7.1240085,
+            50.7135244
+          ],
+          [
+            7.1240415,
+            50.7134632
+          ],
+          [
+            7.1240699,
+            50.7134332
+          ],
+          [
+            7.1241009,
+            50.7134084
+          ],
+          [
+            7.1241349,
+            50.7133892
+          ],
+          [
+            7.12418,
+            50.7133723
+          ]
+        ]
+      },
+      "id": "way/198758487"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228993171",
+        "bicycle": "use_sidepath",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "loc_name": "Trajektknoten",
+        "maxspeed": "50",
+        "name": "Helmut-Schmidt-Platz",
+        "note": "Das ist kein Kreisverkehr, sondern eine ampelgesicherte Kreuzung in Kreisform.",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "source": "estimation;NRW-Atlas DGK5",
+        "surface": "asphalt",
+        "turn:lanes": "left|left;through|through|through",
+        "width": "12"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1246624,
+            50.7135072
+          ],
+          [
+            7.1246568,
+            50.713545
+          ],
+          [
+            7.1246533,
+            50.713578
+          ],
+          [
+            7.1246449,
+            50.7136156
+          ],
+          [
+            7.1246254,
+            50.7136494
+          ],
+          [
+            7.1245886,
+            50.7136855
+          ],
+          [
+            7.1245331,
+            50.713718
+          ]
+        ]
+      },
+      "id": "way/228993171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/237386530",
+        "highway": "residential",
+        "name": "Helmut-Schmidt-Allee"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            13.5533311,
+            52.6867951
+          ],
+          [
+            13.5524328,
+            52.6866209
+          ],
+          [
+            13.5523939,
+            52.6866142
+          ],
+          [
+            13.5522263,
+            52.6865852
+          ],
+          [
+            13.551788,
+            52.6865093
+          ]
+        ]
+      },
+      "id": "way/237386530"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355361562",
+        "destination": "Helmut-Schmidt-Str.",
+        "highway": "residential",
+        "lanes": "1",
+        "name": "Helmut-Schmidt-Straße",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.5599963,
+            49.2360056
+          ],
+          [
+            8.5598593,
+            49.2359473
+          ],
+          [
+            8.5597297,
+            49.2358946
+          ],
+          [
+            8.5596382,
+            49.2358534
+          ]
+        ]
+      },
+      "id": "way/355361562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355361564",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Helmut-Schmidt-Straße",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.5592659,
+            49.2358751
+          ],
+          [
+            8.5594839,
+            49.2358115
+          ],
+          [
+            8.5596884,
+            49.2357494
+          ],
+          [
+            8.5597907,
+            49.2357307
+          ],
+          [
+            8.559901,
+            49.2357312
+          ]
+        ]
+      },
+      "id": "way/355361564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/355361565",
+        "destination": "Helmut-Schmidt-Str.",
+        "highway": "residential",
+        "lanes": "1",
+        "maxspeed": "30",
+        "name": "Helmut-Schmidt-Straße",
+        "oneway": "yes",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.559901,
+            49.2357312
+          ],
+          [
+            8.5598367,
+            49.2357959
+          ],
+          [
+            8.559719,
+            49.2358386
+          ],
+          [
+            8.5596382,
+            49.2358534
+          ],
+          [
+            8.5594217,
+            49.2358666
+          ],
+          [
+            8.5592659,
+            49.2358751
+          ]
+        ]
+      },
+      "id": "way/355361565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/513652433",
+        "cycleway:both": "no",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Schmidt-Allee",
+        "name:etymology:wikidata": "Q2516",
+        "sidewalk": "none",
+        "smoothness": "good",
+        "source": "https://www.muenchen-transparent.de/dokumente/4514008",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.4111202,
+            48.1429592
+          ],
+          [
+            11.4109285,
+            48.1429307
+          ],
+          [
+            11.410624,
+            48.1428854
+          ],
+          [
+            11.4100086,
+            48.1427911
+          ],
+          [
+            11.4089765,
+            48.1426534
+          ],
+          [
+            11.4081082,
+            48.1425534
+          ],
+          [
+            11.4079471,
+            48.1425379
+          ]
+        ]
+      },
+      "id": "way/513652433"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/554842739",
+        "highway": "residential",
+        "name": "Helmut-Schmidt-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.1076366,
+            50.3867827
+          ],
+          [
+            8.1075703,
+            50.3863586
+          ],
+          [
+            8.1075535,
+            50.3862149
+          ]
+        ]
+      },
+      "id": "way/554842739"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/628801819",
+        "highway": "residential",
+        "maxspeed": "30",
+        "name": "Helmut-Schmidt-Ring",
+        "oneway": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.2513022,
+            49.476807
+          ],
+          [
+            11.2516142,
+            49.4768441
+          ],
+          [
+            11.2527383,
+            49.4769987
+          ],
+          [
+            11.2530561,
+            49.4768711
+          ],
+          [
+            11.2534666,
+            49.4767062
+          ],
+          [
+            11.2536799,
+            49.4769056
+          ],
+          [
+            11.253764,
+            49.4770021
+          ],
+          [
+            11.2538855,
+            49.4771415
+          ],
+          [
+            11.2540478,
+            49.4773609
+          ],
+          [
+            11.2544856,
+            49.4777952
+          ],
+          [
+            11.2529799,
+            49.4784398
+          ],
+          [
+            11.2529184,
+            49.4784634
+          ]
+        ]
+      },
+      "id": "way/628801819"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/721302669",
+        "cycleway": "lane",
+        "highway": "residential",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "maxspeed:conditional": "30 @ (Mo-Fr 07:00-18:00; PH off)",
+        "name": "Helmut-Schmidt-Allee",
+        "name:etymology:wikidata": "Q2516",
+        "sidewalk": "both",
+        "smoothness": "good",
+        "source": "https://www.muenchen-transparent.de/dokumente/4514008",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            11.4079471,
+            48.1425379
+          ],
+          [
+            11.407528,
+            48.1424801
+          ],
+          [
+            11.4070983,
+            48.142421
+          ],
+          [
+            11.4070342,
+            48.1424121
+          ],
+          [
+            11.4034427,
+            48.1419175
+          ],
+          [
+            11.4032939,
+            48.141897
+          ]
+        ]
+      },
+      "id": "way/721302669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/758747748",
+        "highway": "residential",
+        "name": "Helmut-Schmidt-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.4715184,
+            50.8703079
+          ],
+          [
+            6.4720253,
+            50.8704228
+          ],
+          [
+            6.4727573,
+            50.8705888
+          ],
+          [
+            6.4734935,
+            50.8707557
+          ],
+          [
+            6.4739741,
+            50.8708647
+          ]
+        ]
+      },
+      "id": "way/758747748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772139337",
+        "highway": "residential",
+        "name": "Helmut-Schmidt-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.1955016,
+            50.8555371
+          ],
+          [
+            6.195951,
+            50.8551531
+          ],
+          [
+            6.1960527,
+            50.8550873
+          ],
+          [
+            6.1961512,
+            50.8550679
+          ],
+          [
+            6.1966418,
+            50.8550094
+          ],
+          [
+            6.1967868,
+            50.8550162
+          ],
+          [
+            6.1973003,
+            50.8549589
+          ]
+        ]
+      },
+      "id": "way/772139337"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/772142741",
+        "highway": "residential",
+        "name": "Helmut-Schmidt-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.1973003,
+            50.8549589
+          ],
+          [
+            6.1974813,
+            50.8549349
+          ],
+          [
+            6.1975685,
+            50.854907
+          ],
+          [
+            6.1976382,
+            50.8548511
+          ],
+          [
+            6.1979355,
+            50.8545603
+          ],
+          [
+            6.1979724,
+            50.8545242
+          ],
+          [
+            6.198326,
+            50.8541784
+          ]
+        ]
+      },
+      "id": "way/772142741"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784552163",
+        "highway": "residential",
+        "name": "Helmut-Schmidt-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.4729064,
+            50.8703302
+          ],
+          [
+            6.4727573,
+            50.8705888
+          ],
+          [
+            6.4722398,
+            50.8715396
+          ]
+        ]
+      },
+      "id": "way/784552163"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/784552164",
+        "highway": "residential",
+        "name": "Helmut-Schmidt-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.4721628,
+            50.8701707
+          ],
+          [
+            6.4720253,
+            50.8704228
+          ],
+          [
+            6.4715415,
+            50.8712804
+          ],
+          [
+            6.4715253,
+            50.8713464
+          ],
+          [
+            6.4716225,
+            50.8714016
+          ],
+          [
+            6.4722398,
+            50.8715396
+          ],
+          [
+            6.4728797,
+            50.8716883
+          ],
+          [
+            6.4729161,
+            50.8716914
+          ],
+          [
+            6.4729509,
+            50.8716873
+          ],
+          [
+            6.4729785,
+            50.8716786
+          ],
+          [
+            6.4729947,
+            50.8716679
+          ],
+          [
+            6.4730117,
+            50.8716495
+          ],
+          [
+            6.4730279,
+            50.8716265
+          ],
+          [
+            6.4734935,
+            50.8707557
+          ],
+          [
+            6.4736313,
+            50.8705045
+          ]
+        ]
+      },
+      "id": "way/784552164"
+    }
+  ]
+}

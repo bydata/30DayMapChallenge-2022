@@ -1,0 +1,3859 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-10-07T19:03:33Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/4258799",
+        "bicycle": "yes",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.241501,
+            51.8113455
+          ],
+          [
+            12.2416695,
+            51.8113648
+          ],
+          [
+            12.2420628,
+            51.8113995
+          ],
+          [
+            12.242539,
+            51.8114133
+          ],
+          [
+            12.2428251,
+            51.8114287
+          ],
+          [
+            12.2431902,
+            51.8114623
+          ],
+          [
+            12.2433937,
+            51.8114922
+          ],
+          [
+            12.2436514,
+            51.8115408
+          ],
+          [
+            12.2439761,
+            51.8116205
+          ],
+          [
+            12.2442555,
+            51.8116995
+          ]
+        ]
+      },
+      "id": "way/4258799"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/22912423",
+        "highway": "living_street",
+        "lit": "yes",
+        "name": "Helmut-Kohl-Straße",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.5562419,
+            49.2351554
+          ],
+          [
+            8.5566339,
+            49.2350574
+          ],
+          [
+            8.5568346,
+            49.2350226
+          ],
+          [
+            8.5574015,
+            49.2349852
+          ],
+          [
+            8.5576239,
+            49.2349609
+          ]
+        ]
+      },
+      "id": "way/22912423"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/28462103",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.7470473,
+            49.3225254
+          ],
+          [
+            6.7468542,
+            49.3222181
+          ]
+        ]
+      },
+      "id": "way/28462103"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34426411",
+        "comment": "19.12.2017, Straßenumbenennung Eisfelder Str. 35, 39 A, 39 B in Helmut-Kohl-Str., http://www.schleusingen.de/wp-content/uploads/2018/01/Stadtratssitzung-05.12.2017.pdf",
+        "highway": "residential",
+        "name": "Helmut-Kohl-Straße",
+        "old_name": "Eisfelder Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.7584103,
+            50.5086926
+          ],
+          [
+            10.7586541,
+            50.5084149
+          ],
+          [
+            10.7587229,
+            50.5083365
+          ],
+          [
+            10.7590019,
+            50.508026
+          ],
+          [
+            10.7591205,
+            50.5079734
+          ],
+          [
+            10.7592136,
+            50.5079509
+          ]
+        ]
+      },
+      "id": "way/34426411"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/34426418",
+        "comment": "19.12.2017, Straßenumbenennung Eisfelder Str. 35, 39 A, 39 B in Helmut-Kohl-Str., http://www.schleusingen.de/wp-content/uploads/2018/01/Stadtratssitzung-05.12.2017.pdf",
+        "highway": "residential",
+        "name": "Helmut-Kohl-Straße",
+        "old_name": "Eisfelder Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            10.7623389,
+            50.5089226
+          ],
+          [
+            10.7622881,
+            50.5089063
+          ],
+          [
+            10.7619161,
+            50.5087874
+          ],
+          [
+            10.7615769,
+            50.5086916
+          ],
+          [
+            10.7614532,
+            50.5086567
+          ],
+          [
+            10.7606093,
+            50.5084509
+          ],
+          [
+            10.7602675,
+            50.5083664
+          ],
+          [
+            10.7601856,
+            50.5083461
+          ],
+          [
+            10.7598796,
+            50.508271
+          ],
+          [
+            10.7594812,
+            50.5081733
+          ],
+          [
+            10.7593795,
+            50.5081429
+          ],
+          [
+            10.7592991,
+            50.5080925
+          ],
+          [
+            10.7592642,
+            50.5080537
+          ],
+          [
+            10.7592323,
+            50.5080026
+          ],
+          [
+            10.7592136,
+            50.5079509
+          ],
+          [
+            10.7591867,
+            50.5078402
+          ]
+        ]
+      },
+      "id": "way/34426418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/71256188",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "shoulder": "no",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4692681,
+            49.4782976
+          ],
+          [
+            8.4691014,
+            49.4783812
+          ],
+          [
+            8.4688976,
+            49.4784684
+          ],
+          [
+            8.4687276,
+            49.478539
+          ],
+          [
+            8.468588,
+            49.4786101
+          ]
+        ]
+      },
+      "id": "way/71256188"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/71256192",
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:1",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4680253,
+            49.4787802
+          ],
+          [
+            8.4681702,
+            49.4786997
+          ],
+          [
+            8.4683012,
+            49.4786277
+          ],
+          [
+            8.4684252,
+            49.4785605
+          ]
+        ]
+      },
+      "id": "way/71256192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/101399984",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.7467775,
+            49.3220961
+          ],
+          [
+            6.7465977,
+            49.321791
+          ]
+        ]
+      },
+      "id": "way/101399984"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359948",
+        "bicycle": "no",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.467323,
+            49.4791477
+          ],
+          [
+            8.4674491,
+            49.4790839
+          ]
+        ]
+      },
+      "id": "way/148359948"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/148359949",
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4674491,
+            49.4790839
+          ],
+          [
+            8.4676855,
+            49.4789591
+          ]
+        ]
+      },
+      "id": "way/148359949"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150395806",
+        "bicycle": "no",
+        "destination": "Ludwigshafen",
+        "destination:ref": "B 37;B 38",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4624108,
+            49.4812042
+          ],
+          [
+            8.4620663,
+            49.4812589
+          ]
+        ]
+      },
+      "id": "way/150395806"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150770349",
+        "bicycle": "no",
+        "bridge": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "layer": "1",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4675583,
+            49.4791788
+          ],
+          [
+            8.4674341,
+            49.4792468
+          ]
+        ]
+      },
+      "id": "way/150770349"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/150770351",
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4674341,
+            49.4792468
+          ],
+          [
+            8.4663411,
+            49.479855
+          ],
+          [
+            8.4659745,
+            49.4800453
+          ],
+          [
+            8.4658157,
+            49.4801241
+          ],
+          [
+            8.4656418,
+            49.4802056
+          ],
+          [
+            8.465407,
+            49.480305
+          ]
+        ]
+      },
+      "id": "way/150770351"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/168073419",
+        "de:strassenschluessel": "13075556208000110",
+        "highway": "residential",
+        "name": "Dr.-Helmut-Kohl-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            14.0090882,
+            54.0264904
+          ],
+          [
+            14.0090351,
+            54.026603
+          ],
+          [
+            14.0090139,
+            54.0267488
+          ],
+          [
+            14.0091752,
+            54.0271173
+          ],
+          [
+            14.0093708,
+            54.0275908
+          ],
+          [
+            14.0094324,
+            54.0276494
+          ]
+        ]
+      },
+      "id": "way/168073419"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/172333242",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 36",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "slight_left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4620663,
+            49.4812589
+          ],
+          [
+            8.4616549,
+            49.4813052
+          ],
+          [
+            8.4615043,
+            49.4813222
+          ],
+          [
+            8.4612554,
+            49.4813466
+          ],
+          [
+            8.4610387,
+            49.481362
+          ],
+          [
+            8.4607749,
+            49.4813725
+          ]
+        ]
+      },
+      "id": "way/172333242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/172336783",
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "turn:lanes": "through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.463994,
+            49.4807182
+          ],
+          [
+            8.4643858,
+            49.4805791
+          ],
+          [
+            8.4645202,
+            49.4805257
+          ],
+          [
+            8.464779,
+            49.4804074
+          ]
+        ]
+      },
+      "id": "way/172336783"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/179906021",
+        "bicycle": "use_sidepath",
+        "cycleway:right": "separate",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Allee",
+        "old_name": "Friedrich-Ebert-Allee",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "wikidata": "Q8959958"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1233259,
+            50.7145668
+          ],
+          [
+            7.1222605,
+            50.7154679
+          ]
+        ]
+      },
+      "id": "way/179906021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/184156802",
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:1",
+        "ref": "B 36",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.465407,
+            49.480305
+          ],
+          [
+            8.4651639,
+            49.4804028
+          ],
+          [
+            8.4649975,
+            49.4804714
+          ],
+          [
+            8.4647698,
+            49.4805564
+          ],
+          [
+            8.4645477,
+            49.4806387
+          ],
+          [
+            8.4643654,
+            49.4807012
+          ],
+          [
+            8.4641361,
+            49.4807789
+          ],
+          [
+            8.4639215,
+            49.480848
+          ]
+        ]
+      },
+      "id": "way/184156802"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/196832679",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "source": "Bing 2013",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4768518,
+            49.474427
+          ],
+          [
+            8.4728729,
+            49.4764059
+          ]
+        ]
+      },
+      "id": "way/196832679"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/219704415",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4690212,
+            49.4782696
+          ],
+          [
+            8.4692238,
+            49.4781672
+          ],
+          [
+            8.4698511,
+            49.4778345
+          ],
+          [
+            8.4701271,
+            49.4776877
+          ]
+        ]
+      },
+      "id": "way/219704415"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223845140",
+        "cycleway:right": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.468588,
+            49.4786101
+          ],
+          [
+            8.4682565,
+            49.4787932
+          ],
+          [
+            8.4679526,
+            49.4789578
+          ],
+          [
+            8.4677036,
+            49.4790992
+          ]
+        ]
+      },
+      "id": "way/223845140"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223859972",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4686625,
+            49.4784392
+          ],
+          [
+            8.4688765,
+            49.4783397
+          ]
+        ]
+      },
+      "id": "way/223859972"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223859973",
+        "alt_name": "Südtangente",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "middle_of:3",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4724919,
+            49.4765994
+          ],
+          [
+            8.4718542,
+            49.4769133
+          ]
+        ]
+      },
+      "id": "way/223859973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/223859974",
+        "alt_name": "Südtangente",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4718542,
+            49.4769133
+          ],
+          [
+            8.4714851,
+            49.4771093
+          ]
+        ]
+      },
+      "id": "way/223859974"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/227205252",
+        "access": "no",
+        "cycleway:both": "no",
+        "destination": "Ludwigshafen",
+        "destination:ref": "B 36",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "source": "Bing 2013",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4770142,
+            49.4743271
+          ],
+          [
+            8.4768518,
+            49.474427
+          ]
+        ]
+      },
+      "id": "way/227205252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/227205265",
+        "access": "no",
+        "cycleway:both": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4767487,
+            49.4743153
+          ],
+          [
+            8.4767851,
+            49.4742936
+          ]
+        ]
+      },
+      "id": "way/227205265"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/227205268",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4714468,
+            49.4769767
+          ],
+          [
+            8.4715601,
+            49.4769028
+          ],
+          [
+            8.4716112,
+            49.4768715
+          ],
+          [
+            8.4717153,
+            49.4768159
+          ],
+          [
+            8.4749413,
+            49.4752062
+          ]
+        ]
+      },
+      "id": "way/227205268"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/227205269",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "middle_of:2",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "source": "Bing 2013",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4754023,
+            49.4749764
+          ],
+          [
+            8.4764085,
+            49.4744754
+          ]
+        ]
+      },
+      "id": "way/227205269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228835182",
+        "bicycle": "use_sidepath",
+        "cycleway:right": "no",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Allee",
+        "old_name": "Friedrich-Ebert-Allee",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "wikidata": "Q8959958"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1245331,
+            50.713718
+          ],
+          [
+            7.124288,
+            50.713819
+          ],
+          [
+            7.1242105,
+            50.7138555
+          ],
+          [
+            7.1241415,
+            50.7138919
+          ],
+          [
+            7.1239536,
+            50.7140273
+          ]
+        ]
+      },
+      "id": "way/228835182"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/228835192",
+        "bicycle": "use_sidepath",
+        "cycleway:right": "separate",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Allee",
+        "old_name": "Friedrich-Ebert-Allee",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through",
+        "wikidata": "Q8959958"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.121129,
+            50.7161532
+          ],
+          [
+            7.1212171,
+            50.7160802
+          ],
+          [
+            7.1214657,
+            50.7158641
+          ],
+          [
+            7.1219908,
+            50.7153922
+          ],
+          [
+            7.1224102,
+            50.7150089
+          ],
+          [
+            7.1226059,
+            50.7148483
+          ]
+        ]
+      },
+      "id": "way/228835192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/229619701",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "source": "Bing 2013",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4764085,
+            49.4744754
+          ],
+          [
+            8.4765557,
+            49.4744028
+          ]
+        ]
+      },
+      "id": "way/229619701"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238081117",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2452982,
+            51.8264248
+          ],
+          [
+            12.2453499,
+            51.8263347
+          ],
+          [
+            12.2455092,
+            51.8260803
+          ],
+          [
+            12.2456628,
+            51.8258785
+          ],
+          [
+            12.2458518,
+            51.8256704
+          ],
+          [
+            12.2460838,
+            51.8254415
+          ],
+          [
+            12.2462858,
+            51.8252708
+          ],
+          [
+            12.2466395,
+            51.8250184
+          ],
+          [
+            12.2470865,
+            51.824727
+          ],
+          [
+            12.2475104,
+            51.8244776
+          ],
+          [
+            12.2479199,
+            51.8242474
+          ],
+          [
+            12.2483838,
+            51.8239956
+          ],
+          [
+            12.2488264,
+            51.8237465
+          ],
+          [
+            12.2494078,
+            51.8234108
+          ],
+          [
+            12.2495689,
+            51.8233135
+          ],
+          [
+            12.2497172,
+            51.8232083
+          ]
+        ]
+      },
+      "id": "way/238081117"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/241518362",
+        "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "5",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Allee",
+        "old_name": "Friedrich-Ebert-Allee",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|through|through|right",
+        "wikidata": "Q8959958"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1235092,
+            50.7141073
+          ],
+          [
+            7.1237323,
+            50.7139221
+          ],
+          [
+            7.1238352,
+            50.7138199
+          ],
+          [
+            7.1239153,
+            50.7137186
+          ],
+          [
+            7.1239512,
+            50.713659
+          ],
+          [
+            7.1239842,
+            50.7135982
+          ]
+        ]
+      },
+      "id": "way/241518362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/241518363",
+        "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Allee",
+        "old_name": "Friedrich-Ebert-Allee",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|through|through",
+        "wikidata": "Q8959958"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1226059,
+            50.7148483
+          ],
+          [
+            7.123207,
+            50.7143552
+          ]
+        ]
+      },
+      "id": "way/241518363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/241518364",
+        "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Allee",
+        "old_name": "Friedrich-Ebert-Allee",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "smoothness": "intermediate",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through|through;right",
+        "wikidata": "Q8959958"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1222605,
+            50.7154679
+          ],
+          [
+            7.121606,
+            50.7160001
+          ],
+          [
+            7.1215206,
+            50.7160759
+          ],
+          [
+            7.1214229,
+            50.7161668
+          ],
+          [
+            7.1213157,
+            50.7162651
+          ]
+        ]
+      },
+      "id": "way/241518364"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244348017",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2496954,
+            51.8144027
+          ],
+          [
+            12.2497597,
+            51.8144862
+          ],
+          [
+            12.2498163,
+            51.8145705
+          ],
+          [
+            12.2499251,
+            51.814739
+          ],
+          [
+            12.2500325,
+            51.8149406
+          ],
+          [
+            12.250123,
+            51.8151726
+          ],
+          [
+            12.2501863,
+            51.8154102
+          ],
+          [
+            12.2502202,
+            51.8155977
+          ],
+          [
+            12.2502328,
+            51.8158453
+          ]
+        ]
+      },
+      "id": "way/244348017"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244348018",
+        "bicycle": "yes",
+        "change:lanes": "no|no",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2493455,
+            51.8140196
+          ],
+          [
+            12.249469,
+            51.8141495
+          ],
+          [
+            12.2495464,
+            51.8142321
+          ],
+          [
+            12.2495743,
+            51.8142637
+          ],
+          [
+            12.2496954,
+            51.8144027
+          ]
+        ]
+      },
+      "id": "way/244348018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244616857",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2504629,
+            51.8224688
+          ],
+          [
+            12.2504144,
+            51.822587
+          ],
+          [
+            12.250336,
+            51.8227502
+          ],
+          [
+            12.2502579,
+            51.8228806
+          ],
+          [
+            12.2501362,
+            51.8230277
+          ],
+          [
+            12.2499971,
+            51.8231555
+          ],
+          [
+            12.2499044,
+            51.8232379
+          ],
+          [
+            12.2497462,
+            51.8233549
+          ],
+          [
+            12.2495035,
+            51.8235047
+          ],
+          [
+            12.2489351,
+            51.8238146
+          ],
+          [
+            12.2480281,
+            51.8243164
+          ],
+          [
+            12.2476021,
+            51.8245548
+          ],
+          [
+            12.2471828,
+            51.8248025
+          ],
+          [
+            12.2467722,
+            51.8250739
+          ],
+          [
+            12.2464955,
+            51.8252786
+          ],
+          [
+            12.2462751,
+            51.8254667
+          ]
+        ]
+      },
+      "id": "way/244616857"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244860168",
+        "cycleway:right": "seperate",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2492851,
+            51.8141679
+          ],
+          [
+            12.2490445,
+            51.8139386
+          ],
+          [
+            12.248752,
+            51.813678
+          ],
+          [
+            12.2485958,
+            51.8135516
+          ],
+          [
+            12.2484055,
+            51.8133977
+          ],
+          [
+            12.2480712,
+            51.8131456
+          ],
+          [
+            12.2476446,
+            51.812857
+          ],
+          [
+            12.2473263,
+            51.8126773
+          ],
+          [
+            12.2471073,
+            51.8125748
+          ],
+          [
+            12.2468884,
+            51.8124862
+          ],
+          [
+            12.246604,
+            51.8123866
+          ],
+          [
+            12.246526,
+            51.8123627
+          ],
+          [
+            12.2462923,
+            51.8122912
+          ],
+          [
+            12.2460261,
+            51.8122256
+          ],
+          [
+            12.2452429,
+            51.8120946
+          ],
+          [
+            12.244982,
+            51.8120413
+          ],
+          [
+            12.2446867,
+            51.8119634
+          ]
+        ]
+      },
+      "id": "way/244860168"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244860170",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2487004,
+            51.8134332
+          ],
+          [
+            12.2488817,
+            51.8135756
+          ],
+          [
+            12.2490315,
+            51.8137047
+          ],
+          [
+            12.2492561,
+            51.8139252
+          ],
+          [
+            12.2493455,
+            51.8140196
+          ]
+        ]
+      },
+      "id": "way/244860170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/244860171",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2500537,
+            51.8157488
+          ],
+          [
+            12.2500366,
+            51.8155749
+          ],
+          [
+            12.2500072,
+            51.8153992
+          ],
+          [
+            12.2499623,
+            51.8152359
+          ],
+          [
+            12.2498909,
+            51.8150287
+          ],
+          [
+            12.2498087,
+            51.8148559
+          ],
+          [
+            12.2497451,
+            51.8147522
+          ]
+        ]
+      },
+      "id": "way/244860171"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816537",
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:1",
+        "ref": "B 36",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4676855,
+            49.4789591
+          ],
+          [
+            8.4680253,
+            49.4787802
+          ]
+        ]
+      },
+      "id": "way/251816537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816538",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "middle_of:2",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4711716,
+            49.4771355
+          ],
+          [
+            8.4712822,
+            49.4770726
+          ],
+          [
+            8.4714468,
+            49.4769767
+          ]
+        ]
+      },
+      "id": "way/251816538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816539",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "none",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4688765,
+            49.4783397
+          ],
+          [
+            8.4690212,
+            49.4782696
+          ]
+        ]
+      },
+      "id": "way/251816539"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816540",
+        "bicycle": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4684252,
+            49.4785605
+          ],
+          [
+            8.4686625,
+            49.4784392
+          ]
+        ]
+      },
+      "id": "way/251816540"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816541",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "middle_of:2",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through|right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4701271,
+            49.4776877
+          ],
+          [
+            8.4711716,
+            49.4771355
+          ]
+        ]
+      },
+      "id": "way/251816541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816574",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "merge_to_right|none|none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4707762,
+            49.4774828
+          ],
+          [
+            8.4698644,
+            49.4779856
+          ]
+        ]
+      },
+      "id": "way/251816574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816575",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4728729,
+            49.4764059
+          ],
+          [
+            8.4724919,
+            49.4765994
+          ]
+        ]
+      },
+      "id": "way/251816575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816576",
+        "access": "no",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "destination": "Schwetzingen;Heidelberg",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "source": "Bing 2013",
+        "surface": "asphalt",
+        "turn:lanes": "through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4765557,
+            49.4744028
+          ],
+          [
+            8.4766553,
+            49.4743631
+          ],
+          [
+            8.4767162,
+            49.4743319
+          ],
+          [
+            8.4767487,
+            49.4743153
+          ]
+        ]
+      },
+      "id": "way/251816576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816577",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "none|none|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4749413,
+            49.4752062
+          ],
+          [
+            8.4754023,
+            49.4749764
+          ]
+        ]
+      },
+      "id": "way/251816577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816578",
+        "alt_name": "Südtangente",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4714851,
+            49.4771093
+          ],
+          [
+            8.4707762,
+            49.4774828
+          ]
+        ]
+      },
+      "id": "way/251816578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/251816579",
+        "alt_name": "Südtangente",
+        "cycleway:right": "no",
+        "foot": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "sidewalk": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4698644,
+            49.4779856
+          ],
+          [
+            8.4695758,
+            49.478141
+          ],
+          [
+            8.4692681,
+            49.4782976
+          ]
+        ]
+      },
+      "id": "way/251816579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/255041716",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.7460367,
+            49.3203435
+          ],
+          [
+            6.7459736,
+            49.3200503
+          ]
+        ]
+      },
+      "id": "way/255041716"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/255041717",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.7460972,
+            49.3206233
+          ],
+          [
+            6.7460367,
+            49.3203435
+          ]
+        ]
+      },
+      "id": "way/255041717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/255041719",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.7464869,
+            49.3216031
+          ],
+          [
+            6.7463763,
+            49.321419
+          ],
+          [
+            6.7462899,
+            49.3212546
+          ],
+          [
+            6.7461937,
+            49.3210297
+          ],
+          [
+            6.74615,
+            49.3208456
+          ],
+          [
+            6.7460972,
+            49.3206233
+          ]
+        ]
+      },
+      "id": "way/255041719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/270655622",
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxheight": "default",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.464779,
+            49.4804074
+          ],
+          [
+            8.465295,
+            49.4801664
+          ],
+          [
+            8.4656111,
+            49.4800066
+          ],
+          [
+            8.4663376,
+            49.4796481
+          ],
+          [
+            8.467323,
+            49.4791477
+          ]
+        ]
+      },
+      "id": "way/270655622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/311539363",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "parking:condition:both": "no_parking",
+        "parking:lane:both": "no",
+        "ref": "B 185",
+        "shoulder": "no",
+        "sidewalk": "right",
+        "sidewalk:right:surface": "concrete:plates",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2500942,
+            51.8172354
+          ],
+          [
+            12.2500704,
+            51.8174328
+          ],
+          [
+            12.2500175,
+            51.8178056
+          ],
+          [
+            12.2499485,
+            51.81812
+          ],
+          [
+            12.2498889,
+            51.8183562
+          ],
+          [
+            12.2498091,
+            51.818583
+          ],
+          [
+            12.249717,
+            51.8188737
+          ],
+          [
+            12.2496817,
+            51.8190516
+          ],
+          [
+            12.2496722,
+            51.8192397
+          ],
+          [
+            12.2496869,
+            51.8193508
+          ],
+          [
+            12.2497143,
+            51.8194696
+          ],
+          [
+            12.2497485,
+            51.8195526
+          ],
+          [
+            12.2497947,
+            51.8196496
+          ]
+        ]
+      },
+      "id": "way/311539363"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/311539366",
+        "bicycle": "yes",
+        "cycleway:right": "separate",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left;through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2502328,
+            51.8158453
+          ],
+          [
+            12.250215,
+            51.8161119
+          ]
+        ]
+      },
+      "id": "way/311539366"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/311539369",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.250215,
+            51.8161119
+          ],
+          [
+            12.2501283,
+            51.8169119
+          ]
+        ]
+      },
+      "id": "way/311539369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314932119",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2500491,
+            51.815975
+          ],
+          [
+            12.2500537,
+            51.8157488
+          ]
+        ]
+      },
+      "id": "way/314932119"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314932120",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2495375,
+            51.8144541
+          ],
+          [
+            12.2494588,
+            51.8143538
+          ],
+          [
+            12.2493935,
+            51.8142805
+          ],
+          [
+            12.2493628,
+            51.8142489
+          ],
+          [
+            12.2492851,
+            51.8141679
+          ]
+        ]
+      },
+      "id": "way/314932120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321328911",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "good",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2496725,
+            51.8197125
+          ],
+          [
+            12.249623,
+            51.8196256
+          ],
+          [
+            12.2495932,
+            51.8195589
+          ],
+          [
+            12.2495542,
+            51.8194529
+          ],
+          [
+            12.2495248,
+            51.8192873
+          ],
+          [
+            12.2495204,
+            51.8191539
+          ],
+          [
+            12.2495384,
+            51.8189774
+          ],
+          [
+            12.2495789,
+            51.8188185
+          ],
+          [
+            12.2497568,
+            51.8182929
+          ],
+          [
+            12.2498021,
+            51.8180918
+          ]
+        ]
+      },
+      "id": "way/321328911"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321328912",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2499149,
+            51.8172311
+          ],
+          [
+            12.2499357,
+            51.817041
+          ],
+          [
+            12.2500491,
+            51.815975
+          ]
+        ]
+      },
+      "id": "way/321328912"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321328913",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "good",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2498021,
+            51.8180918
+          ],
+          [
+            12.2498462,
+            51.8178332
+          ],
+          [
+            12.249876,
+            51.817583
+          ]
+        ]
+      },
+      "id": "way/321328913"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321328914",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "shoulder": "no",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2504965,
+            51.8212795
+          ],
+          [
+            12.2505109,
+            51.8213608
+          ],
+          [
+            12.2505327,
+            51.8215275
+          ],
+          [
+            12.2505436,
+            51.8216898
+          ],
+          [
+            12.2505494,
+            51.8219859
+          ],
+          [
+            12.2505324,
+            51.8221892
+          ]
+        ]
+      },
+      "id": "way/321328914"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321328915",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2462751,
+            51.8254667
+          ],
+          [
+            12.2460787,
+            51.8256505
+          ],
+          [
+            12.2458926,
+            51.8258475
+          ],
+          [
+            12.2457147,
+            51.826066
+          ],
+          [
+            12.2455972,
+            51.8262394
+          ]
+        ]
+      },
+      "id": "way/321328915"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321328916",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2497172,
+            51.8232083
+          ],
+          [
+            12.2498373,
+            51.8231113
+          ],
+          [
+            12.2499519,
+            51.8230075
+          ],
+          [
+            12.2500488,
+            51.8229031
+          ],
+          [
+            12.2501111,
+            51.8228175
+          ],
+          [
+            12.2501664,
+            51.8227186
+          ],
+          [
+            12.2502364,
+            51.8225777
+          ],
+          [
+            12.2502851,
+            51.8224493
+          ]
+        ]
+      },
+      "id": "way/321328916"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321330767",
+        "bicycle": "yes",
+        "change:lanes": "no|no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.249876,
+            51.817583
+          ],
+          [
+            12.2498941,
+            51.8174263
+          ],
+          [
+            12.2499149,
+            51.8172311
+          ]
+        ]
+      },
+      "id": "way/321330767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321330768",
+        "bicycle": "yes",
+        "change:lanes": "no|no|no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2501283,
+            51.8169119
+          ],
+          [
+            12.2501145,
+            51.8170506
+          ],
+          [
+            12.2500942,
+            51.8172354
+          ]
+        ]
+      },
+      "id": "way/321330768"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321330769",
+        "bicycle": "yes",
+        "change:lanes": "no|no|no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2497451,
+            51.8147522
+          ],
+          [
+            12.2496582,
+            51.8146154
+          ],
+          [
+            12.2495375,
+            51.8144541
+          ]
+        ]
+      },
+      "id": "way/321330769"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321330770",
+        "bicycle": "yes",
+        "change:lanes": "no|no|no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "shoulder": "no",
+        "sidewalk": "right",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2505324,
+            51.8221892
+          ],
+          [
+            12.2505135,
+            51.8223082
+          ],
+          [
+            12.2504629,
+            51.8224688
+          ]
+        ]
+      },
+      "id": "way/321330770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321330771",
+        "bicycle": "yes",
+        "change:lanes": "no|no|no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "shoulder": "no",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2455972,
+            51.8262394
+          ],
+          [
+            12.2455186,
+            51.8263701
+          ],
+          [
+            12.2454478,
+            51.8264932
+          ]
+        ]
+      },
+      "id": "way/321330771"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321350927",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2447696,
+            51.8118603
+          ],
+          [
+            12.2450425,
+            51.8119309
+          ],
+          [
+            12.2453803,
+            51.8119968
+          ],
+          [
+            12.2460727,
+            51.812119
+          ],
+          [
+            12.2463477,
+            51.8121841
+          ],
+          [
+            12.2466906,
+            51.8122862
+          ],
+          [
+            12.2469899,
+            51.8123916
+          ],
+          [
+            12.2472063,
+            51.8124825
+          ],
+          [
+            12.247439,
+            51.8125913
+          ],
+          [
+            12.2477797,
+            51.8127811
+          ],
+          [
+            12.248218,
+            51.8130779
+          ]
+        ]
+      },
+      "id": "way/321350927"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321350928",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.248218,
+            51.8130779
+          ],
+          [
+            12.2487004,
+            51.8134332
+          ]
+        ]
+      },
+      "id": "way/321350928"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321350929",
+        "bicycle": "yes",
+        "change:lanes": "no|no|no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2419153,
+            51.8114902
+          ],
+          [
+            12.2416956,
+            51.8114737
+          ],
+          [
+            12.2415133,
+            51.8114507
+          ]
+        ]
+      },
+      "id": "way/321350929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321350930",
+        "bicycle": "yes",
+        "cycleway:right": "no",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "left|none|none"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2442555,
+            51.8116995
+          ],
+          [
+            12.2445074,
+            51.8117853
+          ],
+          [
+            12.2447696,
+            51.8118603
+          ]
+        ]
+      },
+      "id": "way/321350930"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/321350931",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "3",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:2",
+        "ref": "B 185",
+        "surface": "asphalt",
+        "turn:lanes": "left|through|through;right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2432474,
+            51.8115761
+          ],
+          [
+            12.2430333,
+            51.8115512
+          ],
+          [
+            12.2427916,
+            51.8115353
+          ],
+          [
+            12.2422241,
+            51.8115111
+          ],
+          [
+            12.2419153,
+            51.8114902
+          ]
+        ]
+      },
+      "id": "way/321350931"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/376865249",
+        "bicycle": "no",
+        "destination:lanes": "Hafen|Ludwigshafen|Groß-Gerau;Hafen 3 u. 4;MA-Zentrum",
+        "highway": "primary",
+        "lanes": "3",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "placement": "right_of:1",
+        "ref": "B 36",
+        "smoothness": "excellent",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|slight_right"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4639215,
+            49.480848
+          ],
+          [
+            8.4633371,
+            49.4810055
+          ],
+          [
+            8.4628478,
+            49.4811158
+          ],
+          [
+            8.4624108,
+            49.4812042
+          ]
+        ]
+      },
+      "id": "way/376865249"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/403293876",
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4677036,
+            49.4790992
+          ],
+          [
+            8.4675583,
+            49.4791788
+          ]
+        ]
+      },
+      "id": "way/403293876"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/481352777",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2503529,
+            51.8214599
+          ],
+          [
+            12.2503141,
+            51.8212166
+          ],
+          [
+            12.2502257,
+            51.8208711
+          ],
+          [
+            12.2501502,
+            51.8206255
+          ],
+          [
+            12.2500603,
+            51.8204025
+          ],
+          [
+            12.2499504,
+            51.8201817
+          ],
+          [
+            12.2496725,
+            51.8197125
+          ]
+        ]
+      },
+      "id": "way/481352777"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/481352778",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2502851,
+            51.8224493
+          ],
+          [
+            12.2503508,
+            51.8222305
+          ],
+          [
+            12.2503717,
+            51.8220606
+          ],
+          [
+            12.2503747,
+            51.8217802
+          ],
+          [
+            12.2503529,
+            51.8214599
+          ]
+        ]
+      },
+      "id": "way/481352778"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/481352779",
+        "bicycle": "yes",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "sidewalk": "right",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2497947,
+            51.8196496
+          ],
+          [
+            12.2501106,
+            51.8201858
+          ],
+          [
+            12.2502034,
+            51.8203666
+          ],
+          [
+            12.250395,
+            51.8208537
+          ],
+          [
+            12.2504566,
+            51.8210673
+          ],
+          [
+            12.2504965,
+            51.8212795
+          ]
+        ]
+      },
+      "id": "way/481352779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/554842738",
+        "highway": "residential",
+        "name": "Helmut-Kohl-Straße"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.1082293,
+            50.3866356
+          ],
+          [
+            8.1081703,
+            50.3862183
+          ]
+        ]
+      },
+      "id": "way/554842738"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/734544887",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.7468542,
+            49.3222181
+          ],
+          [
+            6.7467775,
+            49.3220961
+          ]
+        ]
+      },
+      "id": "way/734544887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/766634018",
+        "highway": "residential",
+        "lit": "yes",
+        "lit_by_led": "yes",
+        "maxspeed": "30",
+        "name": "Helmut-Kohl-Straße",
+        "operator": "Stadt Philippsburg",
+        "operator:type": "public",
+        "parking:condition:right": "free",
+        "parking:lane:right": "parallel",
+        "parking:lane:right:parallel": "lay_by",
+        "parking:lane:right:width": "2",
+        "sidewalk": "both",
+        "sidewalk:both:width": "1.75",
+        "source:maxspeed": "DE:zone30",
+        "start_date": "2019-12",
+        "surface": "asphalt",
+        "width": "5.5",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4665404,
+            49.2328883
+          ],
+          [
+            8.4664947,
+            49.2329202
+          ],
+          [
+            8.466441,
+            49.2329334
+          ],
+          [
+            8.465918,
+            49.2330341
+          ],
+          [
+            8.4658657,
+            49.2330463
+          ],
+          [
+            8.4658228,
+            49.2330665
+          ],
+          [
+            8.4657973,
+            49.2330895
+          ],
+          [
+            8.4657893,
+            49.2331177
+          ],
+          [
+            8.4657946,
+            49.2331453
+          ],
+          [
+            8.4658979,
+            49.2333537
+          ],
+          [
+            8.4660203,
+            49.2336064
+          ],
+          [
+            8.4661523,
+            49.2338774
+          ],
+          [
+            8.4662555,
+            49.2341054
+          ],
+          [
+            8.4663183,
+            49.2342375
+          ],
+          [
+            8.4663652,
+            49.2343675
+          ],
+          [
+            8.4663756,
+            49.2344429
+          ],
+          [
+            8.4663981,
+            49.2345622
+          ],
+          [
+            8.4664159,
+            49.2345895
+          ]
+        ]
+      },
+      "id": "way/766634018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/768156746",
+        "bicycle": "yes",
+        "cycleway:right": "separate",
+        "foot": "yes",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "70",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 185",
+        "shoulder": "no",
+        "smoothness": "excellent",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            12.2446867,
+            51.8119634
+          ],
+          [
+            12.2445643,
+            51.8119309
+          ],
+          [
+            12.2444041,
+            51.8118793
+          ],
+          [
+            12.2439993,
+            51.8117409
+          ],
+          [
+            12.2437738,
+            51.8116807
+          ],
+          [
+            12.2436953,
+            51.8116614
+          ],
+          [
+            12.2434468,
+            51.8116069
+          ],
+          [
+            12.2432474,
+            51.8115761
+          ]
+        ]
+      },
+      "id": "way/768156746"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/812970254",
+        "bicycle": "no",
+        "highway": "primary",
+        "lanes": "2",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "oneway": "yes",
+        "ref": "B 36",
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            8.4604449,
+            49.4812199
+          ],
+          [
+            8.4607133,
+            49.4812141
+          ],
+          [
+            8.460964,
+            49.4812056
+          ],
+          [
+            8.4613962,
+            49.481193
+          ],
+          [
+            8.4616152,
+            49.4811802
+          ],
+          [
+            8.4618583,
+            49.4811602
+          ],
+          [
+            8.4621321,
+            49.481129
+          ],
+          [
+            8.4623857,
+            49.481096
+          ],
+          [
+            8.4625867,
+            49.481064
+          ],
+          [
+            8.4628006,
+            49.4810211
+          ],
+          [
+            8.4630456,
+            49.4809685
+          ],
+          [
+            8.4632522,
+            49.4809208
+          ],
+          [
+            8.4635141,
+            49.4808582
+          ],
+          [
+            8.4638343,
+            49.4807664
+          ],
+          [
+            8.463994,
+            49.4807182
+          ]
+        ]
+      },
+      "id": "way/812970254"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/908354622",
+        "highway": "tertiary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Straße",
+        "surface": "asphalt",
+        "zone:traffic": "DE:urban"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            6.7465977,
+            49.321791
+          ],
+          [
+            6.7464869,
+            49.3216031
+          ]
+        ]
+      },
+      "id": "way/908354622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1078494294",
+        "bicycle": "use_sidepath",
+        "cycleway:right": "separate",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Allee",
+        "old_name": "Friedrich-Ebert-Allee",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "through|through|through|merge_to_left",
+        "wikidata": "Q8959958"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.1239536,
+            50.7140273
+          ],
+          [
+            7.1233259,
+            50.7145668
+          ]
+        ]
+      },
+      "id": "way/1078494294"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1078494295",
+        "bicycle": "use_sidepath",
+        "foot": "use_sidepath",
+        "highway": "primary",
+        "lanes": "4",
+        "lit": "yes",
+        "maxspeed": "50",
+        "name": "Helmut-Kohl-Allee",
+        "old_name": "Friedrich-Ebert-Allee",
+        "oneway": "yes",
+        "ref": "B 9",
+        "sidewalk:left": "no",
+        "sidewalk:right": "separate",
+        "surface": "asphalt",
+        "turn:lanes": "left|left|through|through;right",
+        "wikidata": "Q8959958"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            7.123207,
+            50.7143552
+          ],
+          [
+            7.1235092,
+            50.7141073
+          ]
+        ]
+      },
+      "id": "way/1078494295"
+    }
+  ]
+}
