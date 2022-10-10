@@ -25,7 +25,7 @@ count(routes_cgn, city_name_en, sort = TRUE) %>%
 
 # Aggregate destinations by city name
 routes_cgn_agg <- routes_cgn %>% 
-  group_by(iata_from, iata_to, city_name_en, country_code, country) %>% 
+  group_by(iata_from, city_name_en, country_code, country) %>% 
   summarize(
     flights_per_week = sum(flights_per_week),
     latitude = mean(latitude), longitude = mean(longitude),
@@ -79,6 +79,14 @@ p1 <- routes_cgn_agg %>%
   geom_point(
     aes(longitude, latitude, size = flights_per_week)
   ) +
+  # Label most frequent airports (outside Germany)
+  ggrepel::geom_label_repel(
+    data = ~filter(., country != "Germany") %>% 
+      slice_max(order_by = flights_per_week, n = 3),
+    aes(x = longitude, latitude, label = city_name_en),
+    family = "Roboto Condensed", size = 2.5, 
+    fill = alpha("white", 0.6), label.size = 0.1
+  ) + 
   scale_size(range = c(0.1, 5), breaks = size_breaks,
              limits = c(0, max(routes_cgn$flights_per_week))) +
   scale_alpha_continuous(range = c(0.3, 1), breaks = size_breaks) +
