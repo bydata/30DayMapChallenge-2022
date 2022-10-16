@@ -53,7 +53,7 @@ ggplot() +
   geom_point(
     data = lake_monsters,
     aes(long, lat, fill = lake_monster_type_recoded),
-    shape = 21, color = "white", stroke = 0.1, size = 2.5) +
+    shape = 21, color = "white", stroke = 0.1, size = 4) +
   annotate(
     "text",
     x = -35, y = 47, label = "Here's Nessie!", color = "grey92", 
@@ -71,7 +71,7 @@ ggplot() +
                              direction = "vertical")) +
   labs(
     title = "Lake Monster Sightings Across the World",
-    subtitle = "A lake monster is a lake-dwelling entity in folklore.
+    subtitle = "A lake monster is a lake-dwelling entity in folklore.<br>
     The most famous example is the Loch Ness Monster (Nessie).<br>
     Monster types derived from Wikipedia descriptions.",
     caption = "Source: English Wikipedia. Visualisation: Ansgar Wolsing",
@@ -81,8 +81,8 @@ ggplot() +
   theme(
     plot.background = element_rect(color = "grey2", fill = "grey2"),
     plot.margin = margin(l = 6, t = 2, b = 2, r = 6),
-    legend.position = c(0.01, 0.2),
-    text = element_text(color = "grey97"),
+    legend.position = c(0.01, 0.18),
+    text = element_text(color = "grey99"),
     legend.justification = "left",
     legend.background = element_rect(color = "grey60", fill = alpha("grey60", 0.5),
                                      size = 0.2),
@@ -90,7 +90,8 @@ ggplot() +
     plot.title = element_markdown(size = 24, family = "Playfair Display", 
                                   face = "italic", hjust = 0.5),
     plot.subtitle = element_textbox(
-      width = 0.9, lineheight = 1.2, hjust = 0.5, halign = 0.5, margin = margin(t = 4, b = 12)),
-    plot.caption = element_markdown(hjust = 0.5)
+      width = 0.9, lineheight = 1.2, hjust = 0.5, halign = 0.5, 
+      margin = margin(t = 12, b = 12)),
+    plot.caption = element_markdown(hjust = 0.5, margin = margin(t = 4, b = 2))
   )
-ggsave(here("plots", "24-fantasy-lake-monsters.png"), dpi = 600, width = 7, height = 7)
+ggsave(here("plots", "24-fantasy-lake-monsters.png"), dpi = 600, width = 7, height = 7.5)
