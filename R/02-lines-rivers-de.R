@@ -11,44 +11,57 @@ rivers <- opq(bbox = st_bbox(de), timeout = 1800) %>%
 
 write_rds(rivers, here("data", "osm-rivers.rds"), compress = "gz")
 
-rivers_lines_filtered <- st_filter(rivers$osm_lines, de)
-# rivers_multilines_filtered <- st_intersection(rivers$osm_multilines, de)
-rivers_multilines_filtered <- st_intersection(rivers$osm_multilines, 
-                                              st_buffer(de, 1))
 
-# rivers_lines_filtered %>% 
-#   select(osm_id, name, width, geometry) %>% 
-#   mutate(length = st_length(geometry)) %>% 
-#   arrange(-length)
-rivers_multilines_filtered_prep <- rivers_multilines_filtered %>% 
-  select(osm_id, name, name.en, width, geometry) %>% 
-  mutate(length = st_length(geometry),
-         length_km = as.numeric(length) / 1000,
-         name_consolidated = ifelse(!is.na(name.en) & name.en != "", name.en, name)) %>% 
-  arrange(-length)
+rivers_multilines_prep <- rivers$osm_multilines %>% 
+  mutate(
+    # full length (including waterway outside Germany)
+    full_length = st_length(geometry),
+    full_length_km = as.numeric(full_length) / 1000,
+    name_consolidated = ifelse(!is.na(name.en) & name.en != "", name.en, name)) %>% 
+  arrange(-full_length) %>% 
+  st_intersection(st_buffer(de, 100)) %>% 
+  # calculate the river length within Germany
+  mutate(
+    de_length = st_length(geometry),
+    de_length_km = as.numeric(de_length) / 1000,
+  ) %>% 
+  select(osm_id, name, name.en, name_consolidated, width, contains("_length"), geometry)
 
-rivers_multilines_filtered_prep %>% 
+rivers_multilines_prep %>% 
   st_drop_geometry() %>% 
   head(10)
 
 
-p <- rivers_multilines_filtered_prep %>% 
-  ggplot(aes(color = length_km)) +
+p <- rivers_multilines_prep %>% 
+  ggplot(aes(color = de_length_km)) +
   geom_sf(
     data = de,
     aes(geometry = geometry), fill = "grey16", color = "grey70", size = 0.01) +
-  geom_sf(aes(size = length_km)) +
+  geom_sf(aes(size = de_length_km)) +
   geom_sf_label(
-    data = ~slice_max(rivers_multilines_filtered_prep, order_by = length, n = 10),
-    aes(label = name_consolidated)) +
+    data = slice_max(rivers_multilines_prep, order_by = de_length_km, n = 8),
+    aes(label = name_consolidated),
+    fill = alpha("grey22", 0.7), family = "Chivo", label.size = 0.1
+    ) +
   scico::scale_color_scico(palette = "nuuk") + #bamako #acton #nuuk
   scale_size_continuous(range = c(0.1, 0.8)) +
   guides(size = "none",
          color = "none") +
-  theme_void() +
+  labs(
+    title = "Rivers of Germany",
+    subtitle = "River courses coloured by the length of the rivers within Germany",
+    caption = "Data: OpenStreetMap contributors. Visualisation: Ansgar Wolsing"
+  ) + 
+  theme_void(base_family = "Montserrat", base_size = 12) +
   theme(
     plot.background = element_rect(color = "grey8", fill = "grey8"),
-    panel.background = element_rect(color = NA, fill = NA)
+    panel.background = element_rect(color = NA, fill = NA),
+    text = element_text(color = "grey95"),
+    plot.title = element_text(color = "#FEFEFE", family = "Chivo", 
+                              size = 28, hjust = 0.5),
+    plot.subtitle = element_text(hjust = 0.5),
+    plot.caption = element_text(hjust = 0.5),
+    plot.margin = margin(rep(4, 4))
   )
 ggsave(here("plots", "02-lines-rivers-de.png"), dpi = 600, width = 7, height = 8)
 
@@ -61,4 +74,10 @@ rivers$osm_lines %>%
          name_consolidated = ifelse(!is.na(name.en) & name.en != "", name.en, name)) %>% 
   arrange(-length) %>% 
   summarize(sum(length))
-  
+
+
+rivers$osm_multilines %>% 
+  filter(name.en == "Oder") %>% 
+  ggplot() +
+  geom_sf(data = de) +
+  geom_sf(color = "red")
