@@ -5,8 +5,10 @@ library(ggmap)
 library(here)
 library(ggtext)
 
-# Authenticate Google Maps API
-api_key <- Sys.getenv("gmaps_api_key")
+# Authenticate Google Maps API 
+# Get API key: https://developers.google.com/maps/documentation/embed/get-api-key?hl=en
+# set key value pair via R console
+api_key <- Sys.getenv("gmaps_api_key") 
 set_key(key = api_key, api = "directions")
 set_key(key = api_key, api = "distance")
 google_keys()
