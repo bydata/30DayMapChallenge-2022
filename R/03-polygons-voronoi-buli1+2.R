@@ -157,17 +157,22 @@ voronoi_buli %>%
   ) +
   scale_fill_identity() +
   labs(
-    title = "What if everybody supported the football club<br>from Bundesliga and 
-    2<sup>nd</sup> Bundesliga<br>which is closest to their location?",
+    title = "What if everybody supported the football club<br>
+    which is closest to their location?",
+    subtitle = "<br>German Bundesliga and 2<sup>nd</sup> Bundesliga",
     caption = "Shapefile: Natural Earth, stadium locations: Wikidata. 
-    Visualisation: Ansgar Wolsing"
+    Visualisation: Ansgar Wolsing (adapted from @VictimOfMaths)."
   ) +
   theme_void(base_family = "Inter") +
   theme(
     plot.background = element_rect(color = NA, fill = "grey87"),
     plot.margin = margin(6, 6, 6, 6),
-    plot.title = element_markdown(family = "Oswald", size = 28, angle = 1.5,
-                              hjust = 0.5, lineheight = 1.15),
+    plot.title = element_markdown(
+      family = "Oswald", size = 28, angle = 1.5, hjust = 0.5, lineheight = 1.15,
+      margin = margin(t = 8, b = -16)),
+    plot.subtitle = element_markdown(
+      family = "Oswald", size = 16, angle = 1.5, hjust = 0.5, lineheight = 1,
+      margin = margin(t = 0)),
     plot.caption = element_markdown(hjust = 0.5)
   )
 ggsave(here("plots", "03-polygons-bundesliga-voronoi-map.png"), dpi = 500, width = 7.5, height = 9)
