@@ -61,7 +61,7 @@ p <- ggplot(de) +
   geom_sf(
     data = subset(football_pitches_centroids_de, surface == "grass"), 
     # data = football_pitches_centroids_de,
-    color = "darkgreen", size = 1e-1, alpha = 0.7, shape = 16
+    color = "darkgreen", size = 0.15, alpha = 0.9, shape = 16
   ) +
   coord_sf() +
   labs(
