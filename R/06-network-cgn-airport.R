@@ -2,6 +2,8 @@ library(tidyverse)
 library(ggtext)
 library(here)
 library(jsonlite)
+library(sf)
+library(patchwork)
 
 #' Source: https://www.flightsfrom.com/CGN
 flights_cgn_json_url <- "https://www.flightsfrom.com/api/airport/CGN?from=CGN"
@@ -30,7 +32,8 @@ routes_cgn_agg <- routes_cgn %>%
     flights_per_week = sum(flights_per_week),
     latitude = mean(latitude), longitude = mean(longitude),
     .groups = "drop"
-  )
+  ) %>% 
+  mutate(flights_per_week = replace_na(flights_per_week, 1))
   
 
 # Destination countries for map background
@@ -44,6 +47,10 @@ destination_country_shapes <- rnaturalearth::ne_countries(
 europe <- rnaturalearth::ne_countries(scale = 50, continent = "Europe", returnclass = "sf")
 africa <- rnaturalearth::ne_countries(scale = 50, continent = "Africa", returnclass = "sf")
 asia <- rnaturalearth::ne_countries(scale = 50, continent = "Asia", returnclass = "sf")
+st_crs(europe)
+
+
+## Map in dark mode ============================================================
 
 # constant breaks for the plots
 size_breaks <- c(5, 10, 20, 40, 60)
@@ -52,32 +59,36 @@ p1 <- routes_cgn_agg %>%
   ggplot() +
   geom_sf(
     data = europe,
-    # data = subset(europe, sovereignt != "Russia"),
-    size = 0.2, fill = "grey97"
+    size = 0.2, fill = "grey20"
   ) + 
   geom_sf(
     data = asia,
-    size = 0.2, fill = "grey97"
+    size = 0.2, fill = "grey20"
   ) + 
   geom_sf(
     data = africa,
-    size = 0.2, fill = "grey97"
+    size = 0.2, fill = "grey20"
   ) +
-  geom_sf(
-    data = destination_country_shapes,
-    size = 0.2
+  ggfx::with_shadow(
+    geom_sf(
+      data = destination_country_shapes,
+      size = 0.2, fill = "grey30"
+    ) 
   ) +
-  geom_curve(
-    aes(x = cgn_longitude, y = cgn_latitude, xend = longitude, yend = latitude,
-        # size = flights_per_week, 
-        alpha = flights_per_week),
-    size = 0.5,
-    curvature = 0.2, color = "#AC80A0"
+  ggfx::with_outer_glow(
+    geom_curve(
+      aes(x = cgn_longitude, y = cgn_latitude, xend = longitude, yend = latitude,
+          # size = flights_per_week, 
+          alpha = flights_per_week),
+      size = 0.5,
+      curvature = 0.3, color = "green"),
+    color = "white", expand = 3, sigma = 5
   ) +
   annotate("point", x = cgn_longitude, y = cgn_latitude, 
            size = 3, shape = 21, stroke = 1, fill = "grey90") +
   geom_point(
-    aes(longitude, latitude, size = flights_per_week)
+    aes(longitude, latitude, size = flights_per_week),
+    color = "grey82"
   ) +
   # Label most frequent airports (outside Germany)
   ggrepel::geom_label_repel(
@@ -90,42 +101,46 @@ p1 <- routes_cgn_agg %>%
   scale_size(range = c(0.1, 5), breaks = size_breaks,
              limits = c(0, max(routes_cgn$flights_per_week))) +
   scale_alpha_continuous(range = c(0.3, 1), breaks = size_breaks) +
-  coord_sf(xlim = c(-20, 65), ylim = c(25, 68)) +
+  coord_sf(xlim = c(-20, 58), ylim = c(25, 68)) +
   theme_void(base_family = "Roboto Condensed") +
   theme(
-    plot.background = element_rect(color = "white", fill = "white"),
     legend.position = "bottom",
-    text = element_text(color = "grey20"),
+    plot.background = element_rect(color = "grey8", fill = "grey8"),
+    text = element_text(color = "grey90"),
     plot.title = element_text(face = "bold", size = 16, hjust = 0.5,
                               margin = margin(t = 4, b = 8)),
     plot.caption = element_markdown(lineheight = 1.1, hjust = 0)
   )
-# ggsave(here("plots", "06-network-flight-destinations-cgn.png"), width = 8, height = 6)
-
+p1
 
 # Within Germany
 p2 <- routes_cgn %>% 
   filter(country == "Germany") %>% 
   ggplot() +
-  geom_sf(
-    data = subset(europe, sovereignt == "Germany"),
-    size = 0.2, fill = "grey97"
+  ggfx::with_shadow(
+    geom_sf(
+      data = subset(europe, sovereignt == "Germany"),
+      size = 0.2, fill = "grey30"
+    ) 
   ) +
-  geom_curve(
-    aes(x = cgn_longitude, y = cgn_latitude, xend = longitude, yend = latitude,
-        # size = flights_per_week, 
-        alpha = flights_per_week),
-    size = 0.5,
-    curvature = 0.2, color = "#AC80A0"
+  ggfx::with_outer_glow(
+    geom_curve(
+      aes(x = cgn_longitude, y = cgn_latitude, xend = longitude, yend = latitude,
+          # size = flights_per_week, 
+          alpha = flights_per_week),
+      size = 0.5,
+      curvature = 0.2, color = "green"),
+    color = "white", expand = 3, sigma = 5
   ) +
   annotate("point", x = cgn_longitude, y = cgn_latitude, 
            size = 3, shape = 21, stroke = 1, fill = "grey90") +
   geom_point(
-    aes(longitude, latitude, size = flights_per_week)
+    aes(longitude, latitude, size = flights_per_week),
+    color = "grey82"
   ) +
   geom_text(
     aes(x = longitude, y = latitude, label = city_name_en),
-    family = "Roboto Condensed", hjust = -0.2
+    family = "Roboto Condensed", hjust = -0.2, color = "grey90"
   ) +
   scale_size(range = c(0.1, 5), breaks = size_breaks,
              limits = c(0, max(routes_cgn$flights_per_week))) +
@@ -133,21 +148,25 @@ p2 <- routes_cgn %>%
   coord_sf() +
   theme_void(base_family = "Roboto Condensed") +
   theme(
-    plot.background = element_rect(color = "grey50", fill = "white"),
+    plot.background = element_rect(color = "grey8", fill = "grey8"),
+    panel.background = element_rect(color = "grey39", fill = "grey8"),
+    text = element_text(color = "grey90"),
     legend.position = "none"
   )
 
-library(patchwork)
-
 p1 + 
   labs(
-    title = "Destinations from Cologne-Bonn Airport",
+    title = toupper("Destinations from Cologne-Bonn Airport"),
     caption = "There are flights from Cologne-Bonn to 3 airports in London and 
     2 airports in Istanbul. Their numbers have been aggregated.
     <br>
-    Source: flightsfrom.com. Visualisation: Ansgar Wolsing"
+    Source: flightsfrom.com. Visualisation: Ansgar Wolsing",
+    size = "Flights per week", alpha = "Flights per week"
   ) +
-  inset_element(p2, left = 0.6, top = 1, bottom = 0.4, right = 1.1)
+  inset_element(p2, left = 0.6, top = 1, bottom = 0.4, right = 1.1) &
+  theme(
+    plot.background = element_rect(color = "grey8", fill = "grey8"),
+    plot.caption = element_markdown(lineheight = 1.2)
+  )
 ggsave(here("plots", "06-network-flight-destinations-cgn+de-inset.png"), width = 7, height = 6)
-
 
