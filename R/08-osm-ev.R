@@ -9,11 +9,15 @@ crs <- "EPSG:4326"
 shape_cgn <- getbb("Cologne, Germany", format_out = "sf_polygon")
 st_crs(shape_cgn) <- crs
 
-relevant_highway_values <- c("motorway", "road", "primary", "secondary", "tertiary")
-highway_features <- opq(bbox = shape_cgn) %>%
-  add_osm_feature(key = "highway") %>%
+# Streets
+relevant_highway_values <- c("motorway", "road", "primary", "secondary", 
+                             "tertiary", "residential")
+osm_key_value_pairs <- paste0("\"highway\"", "=", "\"", relevant_highway_values, "\"")
+highway_features <- opq(bbox = shape_cgn, timeout = 1200) %>%
+  add_osm_features(features = osm_key_value_pairs) %>%
   osmdata_sf()
 
+# Charging stations
 charging_features <- opq(bbox = shape_cgn) %>%
   add_osm_feature(key = "amenity", value = "charging_station") %>%
   osmdata_sf()
@@ -65,8 +69,8 @@ highway_features_lines <-
 
 highway_features_lines_simplified <- st_simplify(highway_features_lines)
 
-# Takes a while, store result
-highway_features_lines_cgn <- st_intersection(shape_cgn, highway_features_lines_simplified)
+# Limit streets to Cologne shape
+highway_features_lines_cgn <- st_filter(highway_features_lines_simplified, shape_cgn)
 write_rds(highway_features_lines_cgn, here("data", "highway_features_lines_cgn.rds"))
 highway_features_lines_cgn <- read_rds(here("data", "highway_features_lines_cgn.rds"))
 
@@ -81,7 +85,9 @@ p <- ggplot() +
           shape = 16, size = 2) +
   paletteer::scale_color_paletteer_d("jcolors::pal3") +
   labs(fill = "Operator") +
-  cowplot::theme_map() +
-  theme(text = element_text(family = "Lato"),
+  theme_void() +
+  theme(
+    plot.background = element_rect(color = "white", fill = "white"),
+    text = element_text(family = "Lato"),
         legend.position = c(0.8, 0.8))
 ggsave(here("plots", "08-osm-ev-charging-stations-cgn.png"), dpi = 200, width = 10, height = 8)
