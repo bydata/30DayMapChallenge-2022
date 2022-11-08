@@ -65,3 +65,41 @@ p <- pop_raster_cropped %>%
   )
 ggsave(here("plots", "07-raster-europe-population-grid-1km.png"), dpi = 500, 
        width = 7, height = 8)
+
+bg_color <- "grey21"
+p <- pop_raster_cropped %>% 
+  ggplot() +
+  geom_sf(
+    data = europe,
+    fill = "grey8", col = "grey30", size = 0.2
+  ) +
+  geom_sf(aes(fill = TOT_P_2018, col = TOT_P_2018), size = 0) +
+  scale_color_gradient(
+    low = "grey8",
+    high = "yellow",
+    name = "Number of<br>residents",
+    breaks = c(0, 10, 100, 1e3, 1e4, 1e5),
+    labels = scales::number_format(),
+    trans = "pseudo_log", na.value = "white",
+    aesthetics = c("fill", "color")) + 
+  guides(fill = guide_colorbar(ticks = TRUE)) +
+  labs(
+    title = "Population Density in European Countries",
+    subtitle = "Number of residents in grid cells of approximately 
+    1 square kilometer in selected European countries.",
+    caption = "Source: GEOSTAT / Eurostat, 2018. Visualisation: Ansgar Wolsing"
+  ) + 
+  theme_void(base_family = "Cabinet Grotesk") +
+  theme(
+    plot.background = element_rect(color = bg_color, fill = bg_color),
+    plot.margin = margin(6, 6, 6, 6),
+    text = element_text(color = "grey98"),
+    plot.title = element_text(face = "bold", hjust = 0.5, size = 20),
+    plot.subtitle = element_markdown(hjust = 0.5, lineheight = 1.1),
+    legend.position = c(0.95, 0.54), 
+    legend.key.width = unit(2.5, "mm"),
+    legend.title = element_markdown(lineheight = 1.1)
+  )
+ggsave(here("plots", "07-raster-europe-population-grid-1km-dark.png"), dpi = 500, 
+       width = 7, height = 8)
+
