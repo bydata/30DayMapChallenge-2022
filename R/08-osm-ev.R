@@ -37,7 +37,8 @@ get_osm_data <- function(place_name) {
               ))  
 }
 
-places <- c("Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart") %>% 
+places <- c("Berlin", "Hamburg", "Munich", "Cologne", "Frankfurt", "Stuttgart",
+            "Düsseldorf", "Dortmund", "Essen") %>% 
   paste("Germany", sep = ", ")
 
 # foo <- get_osm_data("Berlin, Germany")
@@ -69,8 +70,6 @@ osm_results2 <- map(osm_results, function(x) {
 # Adapt Hamburg shape - remove Neuwerk island
 osm_results2[["Hamburg, Germany"]]$shape <- osm_results2[["Hamburg, Germany"]]$shape %>% 
   st_crop(c(xmin = 9.5, ymin = 53.3, xmax = 10.3, ymax = 53.8)) 
-
-
 
 for (result in osm_results2) {
   p <- ggplot() +
@@ -118,15 +117,19 @@ for (i in seq_along(osm_results2)) {
 
 library(patchwork)
 
-p_combined <- (p[[1]] + p[[2]] + p[[3]]) /  (p[[4]] + p[[5]] + p[[6]]) +
+p_combined <- (p[[1]] + p[[2]] + p[[3]]) /  
+  (p[[4]] + p[[5]] + p[[6]]) /  
+  (p[[7]] + p[[8]] + p[[9]]) +
   plot_annotation(
     title = "EV Charging Stations in the Largest Cities in Germany",
-    caption = "Source: OpenStreetMap contributors. Visualisation: Ansgar Wolsing",
+    caption = "Note: City shapes are not equally scaled<br>
+    Source: OpenStreetMap contributors. Visualisation: Ansgar Wolsing",
     theme = theme(
-      plot.title = element_markdown(hjust = 0.5, size = 18, face = "bold"))
+      plot.title = element_markdown(hjust = 0.5, size = 18, face = "bold"),
+      plot.caption = element_markdown(hjust = 0.5, lineheight = 1.1))
   ) &
   theme(
     plot.background = element_rect(color = "grey99", fill = "grey99"),
     text = element_text(family = "Lato")
   )
-ggsave(here("plots", "08-osm-ev-charging-stations-germany-cities.png"), width = 8, height = 6)
+ggsave(here("plots", "08-osm-ev-charging-stations-germany-cities.png"), width = 8, height = 9)
