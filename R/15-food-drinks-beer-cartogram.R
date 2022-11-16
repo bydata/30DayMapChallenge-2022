@@ -122,4 +122,4 @@ p_edited <- plot_layer_data %>%
     plot.caption = element_markdown(hjust = 0.5, lineheight = 1.1),
     plot.margin = margin(rep(2, 4))
   )
-ggsave(here("plots", "15-food-drinks-beer-cartogramm-cont.png"), width = 7, height = 8)
+ggsave(here("plots", "15-food-drinks-beer-cartogramm.png"), width = 7, height = 8)
