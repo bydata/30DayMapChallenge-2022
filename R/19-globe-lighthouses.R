@@ -31,11 +31,11 @@ sphere_graticules <- st_graticule(ndiscr = 10000, margin = 10e-6) %>%
 
 
 p <- ggplot() +
-  geom_sf(data = sphere_graticules, fill = "grey10", size = 0.09) + 
-  geom_sf(
-    data = world,
-    fill = NA, size = 0.09, color = "grey32"
-  ) +
+  geom_sf(data = sphere_graticules, fill = "#020417", size = 0.09) + 
+  # geom_sf(
+  #   data = world,
+  #   fill = NA, size = 0.09, color = "grey32"
+  # ) +
   ggfx::with_outer_glow(
     geom_point(
       data = lighthouses_world_points,
@@ -52,7 +52,7 @@ p <- ggplot() +
   ) +
   theme_void(base_family = "Poiret One") +
   theme(
-    plot.background = element_rect(color = "grey6", fill = "grey6"),
+    plot.background = element_rect(color = "#171717", fill = "#171717"),
     text = element_text(color = "grey98"),
     plot.title = element_text(
       family = "Codystar", color = "#faee66", hjust = 0.5, size = 42),
