@@ -33,31 +33,21 @@ lake_monsters_sf <- lake_monsters %>%
 # A map of the world
 world <- map_data("world")
 
-# ggplot() +
-#   geom_map(
-#     data = world,
-#     map = world,
-#     aes(long, lat, map_id = region)) +
-#   coord_map(projection = "mollweide", xlim = c(-179.9, 179.9))
 
-ggplot() +
+p <- ggplot() +
   geom_map(
     data = world,
     map = world,
     aes(long, lat, map_id = region), fill = "grey73") +
-  # geom_point(
-  #   data = lake_monsters_sf,
-  #   aes(x = st_coordinates(geometry)[, "X"], y = st_coordinates(geometry)[, "Y"]),
-  #   color = "red"
-  # ) +
   geom_point(
     data = lake_monsters,
     aes(long, lat, fill = lake_monster_type_recoded),
     shape = 21, color = "white", stroke = 0.1, size = 4) +
   annotate(
-    "text",
-    x = -35, y = 47, label = "Here's Nessie!", color = "grey92", 
-    family = "Playfair Display", size = 6, vjust = 1,
+    "richtext",
+    x = -35, y = 47, label = "Here's Nessie!<span style='font-size:10pt'><br>(Is it really?)</span>", color = "grey92", 
+    family = "Playfair Display", size = 6, vjust = 1, fill = NA, label.size = 0,
+    lineheight = 0.6
   ) +
   #  57.3228575, -4.4243817
   annotate(
