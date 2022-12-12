@@ -82,7 +82,7 @@ Voronoi polygons show the area where every point is closest to a particular stad
 
 ![](plots/16-minimal-autobahn-white.png)
 
-18 \| Colour Friday: Blue
+## 18 \| Colour Friday: Blue
 
 ![](plots/18-blue-eiffel65.png)
 
